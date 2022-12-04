@@ -1,0 +1,48 @@
+.section-container>h1 {
+    font-family: Bruno Ace SC;
+    color: #6DFFC0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.resume-page-container {
+    display: block;
+    justify-content: center;
+    padding: 0em 15em;
+}
+
+.content-container {
+    padding: 50px 0px;
+}
+
+.heading-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-container {
+    margin: 10px 0px;
+}
+
+.heading-container>h2 {
+    font-size: 26px !important;
+    font-weight: bold !important;
+    color: #6DFFC0;
+}
+
+.title-container>h3 {
+    font-size: 22px !important;
+    font-weight: normal !important;
+    color: white;
+}
+
+.description-container>p {
+    font-size: 14px;
+    margin: 0px !important;
+    padding: 10px 0px;
+}

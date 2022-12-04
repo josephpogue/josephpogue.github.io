@@ -1,0 +1,15 @@
+.navbar-main {
+    padding-left: 4em !important;
+    padding-top: 2em !important;
+}
+
+.nav-link {
+    color: #8C92AF !important;
+    padding: 15px !important;
+}
+
+.btn {
+    background-color: #6DFFC0 !important;
+    font-family: "Bruno Ace SC" !important;
+    padding: 10px 30px !important;
+}
