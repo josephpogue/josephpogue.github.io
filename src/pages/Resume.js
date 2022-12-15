@@ -1,9 +1,59 @@
 import React from 'react'
 import './Resume.css'
+
+const education = {
+    edu1: {
+        company: "Emory University",
+        title: "Undergraduate",
+        location: "Atlanta, Georgia",
+        date: "January 2018 - May 2022",
+        description: "Bachelors in Business Administration and Computer Science Double Major"
+    },
+    edu2: {
+        company: "Emory University",
+        title: "Undergraduate",
+        location: "Atlanta, Georgia",
+        date: "January 2018 - May 2022",
+        description: "Bachelors in Business Administration and Computer Science Double Major"
+    }
+
+}
+
+const experience = {
+    edu1: {
+        company: "Emory University",
+        title: "Undergraduate",
+        location: "Atlanta, Georgia",
+        date: "January 2018 - May 2022",
+        description: "Bachelors in Business Administration and Computer Science Double Major"
+    },
+    edu2: {
+        company: "Emory University",
+        title: "Undergraduate",
+        location: "Atlanta, Georgia",
+        date: "January 2018 - May 2022",
+        description: "Bachelors in Business Administration and Computer Science Double Major"
+    }
+
+}
 function Resume() {
     return (
         <>
             <div className="resume-page-container">
+                <div className="section-container">
+                    <h1>Education</h1>
+                    <div className="content-container">
+                        {Object.keys(education).map((key) => (
+                            <div key={key} className="heading-container">
+                                <h2>{education[key].company}</h2>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+
+
+
 
 
                 <div className="section-container">

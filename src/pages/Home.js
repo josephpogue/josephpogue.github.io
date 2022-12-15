@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Image } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import './Home.css'
 import profileImage from '../resources/profile.JPG';
 
@@ -32,9 +32,9 @@ function Home() {
                             Currentlfy working towards UI/UX Design and Web/App Development
                         </p>
                     </div>
-                    <Button className="reachout-button">
+                    <button className="btn reachout-button">
                         Reach Out!
-                    </Button>
+                    </button>
                 </div>
                 <div className="image-container">
                     <Image className="profile-image" fluid="true" src={profileImage}></Image>

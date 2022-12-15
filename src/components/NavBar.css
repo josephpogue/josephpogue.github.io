@@ -1,15 +1,26 @@
 .navbar-main {
-    padding-left: 4em !important;
-    padding-top: 2em !important;
+    padding: 4em 2em;
+    padding-left: 5em;
+    align-items: center;
+
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-link {
-    color: #8C92AF !important;
-    padding: 15px !important;
+    color: #8C92AF;
+    padding: 15px;
+    text-decoration: none;
 }
 
-.btn {
-    background-color: #6DFFC0 !important;
-    font-family: "Bruno Ace SC" !important;
-    padding: 10px 30px !important;
+.nav-link:hover {
+    opacity: 50%;
+}
+
+.nav-link:active {
+    color: white;
 }

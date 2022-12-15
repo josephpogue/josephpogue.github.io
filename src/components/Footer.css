@@ -1,4 +1,26 @@
 .footer {
     display: flex;
     padding: 40px;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-icons {
+    display: flex;
+}
+
+.footer-icons>a {
+    height: 100%;
+    padding: 15px;
+}
+
+.react-icons-footer {
+    height: 50px;
+    width: 50px;
+}
+
+.copyright-container {
+    align-items: center;
 }
