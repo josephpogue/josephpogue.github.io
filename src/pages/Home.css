@@ -1,26 +1,33 @@
-* {
-    color: white;
+.home-container {
+    padding: 3rem 5rem;
+    max-width: 100%;
 }
 
-.page-container {
-    display: flex;
-    padding: 4em 0em;
-
+.row-container {
+    width: 100%;
+    margin: 0;
 }
 
 .body-container {
-    flex: 50%;
-    padding: 1em 7.5em;
-    width: 35%;
+    padding: 0rem 0rem;
+
+}
+
+.description-body {
+    padding: 2rem 0rem;
 }
 
 .image-container {
-    flex: 50%;
+    text-align: center;
+    height: 80vh;
 }
 
-.tech-intro {
-    margin: 50px 0px;
+.image-container>.profile-image {
+    height: 100%;
 }
+
+
+.tech-intro {}
 
 .tech-intro>* {
     font-family: "Bruno Ace SC";
@@ -28,7 +35,6 @@
 
 .name-intro {
     font-size: 24px;
-
 }
 
 .name-body {
@@ -37,16 +43,6 @@
     padding: 30px 0px;
 }
 
-h3 {
-    color: #6DFFC0;
-}
-
 .reachout-button {
     color: #202745;
-    margin: 50px 0px;
-}
-
-.image-container>.profile-image {
-    max-height: 870px;
-    float: right;
 }

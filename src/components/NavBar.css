@@ -1,6 +1,5 @@
 .navbar-main {
     padding: 4em 2em;
-    padding-left: 5em;
     align-items: center;
 
 }
@@ -11,16 +10,16 @@
     align-items: center;
 }
 
-.nav-link {
+#nav-link {
     color: #8C92AF;
-    padding: 15px;
+    padding: 0rem 2rem;
     text-decoration: none;
 }
 
-.nav-link:hover {
+.custom-nav-link:hover {
     opacity: 50%;
 }
 
-.nav-link:active {
+.custom-nav-link:active {
     color: white;
 }
